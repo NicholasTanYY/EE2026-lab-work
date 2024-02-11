@@ -1,0 +1,17 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 70c6eb338a5440fabcf3cce5664b85d6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_assignment2_behav xil_defaultlib.sim_assignment2 xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 1 for port CIN [C:/Users/ntyythepro/Verilog/W4/as2/as2.srcs/sources_1/new/four_bit_adder.v:25]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.one_bit_adder
+Compiling module xil_defaultlib.four_bit_adder
+Compiling module xil_defaultlib.three_bit_adder
+Compiling module xil_defaultlib.assignment2
+Compiling module xil_defaultlib.sim_assignment2
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_assignment2_behav
